@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363958;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.first_page {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+}
+
+.insertAtm {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+}
+
+.insertAtm input {
+    border-radius: 5px;
+    padding: 10px ;
+    border: none;
+}
+
+.insertAtm button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+
+#fname {
+    width: 50%;
+    margin: auto;
+}
+
+.select-language {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+}
+
+.withdraw-amount {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+}
+
+.withdraw-amount input {
+    border-radius: 5px;
+    padding: 10px ;
+    border: none;
+}
+
+.withdraw-amount button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.withdrawal-area {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
+    color: white;
+    background-color: royalblue;
+}
+
+.withdrawal-area h4 {
+    padding-bottom: 20px;
+}
+
+.withdrawal-area button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.atm-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .row{
+    display: flex;
+    width: 96%;
+}
+
+.col-lg-6{
+    width: 16%;
+}
+
+.submit-area {
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 10px;
+	box-shadow: 5px 5px gray;
+  color: white;
+  background-color: royalblue;
+}
+
+#account-area {
+	margin-top: 5%;
+}
+
+.deposit {
+	background-color: slateblue;
+}
+
+.withdraw {
+	background-color: lightsalmon;
+}
+
+.balance {
+	background-color: tomato;
+}
+
+.status {
+	margin: 0 20px;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+} */
+
+@media (max-width: 769px) {
+    .first_page, .withdrawal-area {
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 50px;
+  }
+
+  .first_page h1{
+   font-size: 15px;
+}
+
+.first_page p{
+    font-size: 11px;
+ }
+
+}
